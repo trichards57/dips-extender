@@ -8,7 +8,6 @@ chrome.storage.sync.get("color", function(data) {
 changeColor.onclick = function(element) {
   let color = element.target.value;
   chrome.tabs.executeScript({
-    file: 'inject.js',
-    allFrames: true
+    file: 'inject.js'
   });
 };
