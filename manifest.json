@@ -1,5 +1,6 @@
 {
   "name": "DIPS Extended",
+  "short_name": "DIPS Ext",
   "version": "0.1",
   "description": "Client-side extension to make the new DIPS easier to use.",
   "permissions": ["activeTab", "declarativeContent", "storage"],
@@ -14,10 +15,10 @@
     }
   ],
   "icons": {
-    "16": "images/get_started16.png",
-    "32": "images/get_started32.png",
-    "48": "images/get_started48.png",
-    "128": "images/get_started128.png"
+    "16": "images/emergency-ambulance-16.png",
+    "32": "images/emergency-ambulance-32.png",
+    "48": "images/emergency-ambulance-48.png",
+    "128": "images/emergency-ambulance-128.png"
   },
   "manifest_version": 2
 }
